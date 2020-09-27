@@ -25,8 +25,17 @@
  function hideText(){
 
     var text = document.getElementsByName("Sprint-1-Items")
-
     
+    if(text.style.display == "none"){
+
+        text.style.display = "block";
+    }
+
+    else if (text.style.display == "block"){
+
+        text.style.display = "none";
+    }
+
 
  }
 
@@ -57,6 +66,7 @@
 
     <img src="Squigglyline.jpg" alt="The Squiggly Line" width="1200" height="50">
 
+    
 
 
 
