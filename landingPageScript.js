@@ -15,7 +15,7 @@ function hideTextSprint1() {
 
     function hideTextSprint2() {
 
-    var text = document.getElementById("Sprint-1-Items");
+    var text = document.getElementById("Sprint-2-Items");
 
     if(text.style.display == "none"){
 
