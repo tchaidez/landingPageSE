@@ -1,3 +1,6 @@
+
+
+
 function hideTextSprint1() {
 
     var text = document.getElementById("Sprint-1-Items");
