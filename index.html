@@ -2,51 +2,14 @@
 
 <head>
 <! -- Inspiration for header  https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1 --> 
-<style>
 
-	h1 {
-   
-    	text-align: center;
-    }
+<link rel="stylesheet" href="landingPage.css">
 
-    img {
-
-        width: 100%;
-        
-    }
-
-</style>
 </head>
 
 <! -- Inspiration for hide and show feature https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp -- >
 
-<script>
- 
- function hideText() {
-
-    var text = document.getElementById("Sprint-1-Items");
-    
-    if(text.style.display == "none"){
-
-        text.style.display = "block";
-    }
-
-    else if(text.style.display != "none"){
-
-        text.style.display = "none";
-    }
-
-    
-
-}
-    
-
-
- 
-
-
-
-</script>
+<script src = "landingPageScript.js"> </script>
 
 <body>
     
@@ -59,7 +22,7 @@
 
     <img src="Squigglyline.jpg" alt="The Squiggly Line" width="1200" height="50">
 
-    <button onclick=" hideText() ">
+    <button onclick=" hideTextSprint1() ">
 
         SPRINT 1
     </button>
@@ -70,6 +33,16 @@
     </ul>
 
     <img src="Squigglyline.jpg" alt="The Squiggly Line" width="1200" height="50">
+
+    <ul id = "Sprint-2-Items">
+
+        <li> No Links Needed for this Sprint </li>
+
+    </ul>
+
+    <img src="Squigglyline.jpg" alt="The Squiggly Line" width="1200" height="50">
+
+
 
 
 
