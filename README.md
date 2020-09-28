@@ -1,6 +1,9 @@
 # landingPageSE
+
 **Name**: Thomas Chaidez
+
 **Project**: Landing Page
+
 **Lewis Email**: thomasachaidez@lewisu.edu
 
 **Code Templates Used**:
